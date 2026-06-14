@@ -9,6 +9,8 @@ public class WorkItemsController(IWorkItemService workItemService) : Controller
 {
     private readonly IWorkItemService _workItemService = workItemService;
 
+    // Without Filtering
+    
     // public async Task<IActionResult> Index()
     // {
     //     var workItems = await _workItemService.GetAllAsync();
